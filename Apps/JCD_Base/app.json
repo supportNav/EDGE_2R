@@ -1,0 +1,26 @@
+{
+  "id": "5284037f-4f93-4702-84ea-5c74fc3fae39",
+  "name": "JCD_Base",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://JCD_Base.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}
