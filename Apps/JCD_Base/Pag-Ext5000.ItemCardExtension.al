@@ -1,3 +1,6 @@
+/// <summary>
+/// PageExtension Item Card Extension (ID 50100) extends Record Item Card.
+/// </summary>
 pageextension 50100 "Item Card Extension" extends "Item Card"
 {
     layout

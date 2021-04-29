@@ -1,8 +1,8 @@
 {
   "id": "5284037f-4f93-4702-84ea-5c74fc3fae39",
   "name": "JCD_Base",
-  "publisher": "Default publisher",
-  "version": "1.0.0.0",
+  "publisher": "JCD Groupe",
+  "version": "2.1.2.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -13,7 +13,7 @@
   "dependencies": [],
   "screenshots": [],
   "features": [ "TranslationFile", "GenerateCaptions" ],
-  "platform": "1.0.0.0",
+  "platform": "18.0.0.0",
   "application": "18.0.0.0",
   "idRanges": [
     {
