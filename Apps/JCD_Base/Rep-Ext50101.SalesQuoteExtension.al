@@ -16,5 +16,4 @@ reportextension 50101 SalesQuoteExt extends "Standard Sales - Quote"
         TelLbl: Label 'Phone No. :';
         EMailTxtLbl: Label 'E-mail : ';
         RealizedBy: Label 'Realized by :';
-
 }
