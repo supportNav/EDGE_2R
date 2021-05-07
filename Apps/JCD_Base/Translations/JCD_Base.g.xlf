@@ -3,6 +3,16 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="JCD_Base">
     <body>
       <group id="body">
+        <trans-unit id="TableExtension 1910663058 - Field 3289079480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Shipping Agent Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Extension - Field Shipping Agent Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1910663058 - Field 2131476365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Shipping Agent Service Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Extension - Field Shipping Agent Service Descr. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="ReportExtension 3814193669 - NamedType 2779289930" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 3814193669">
           <source>E-mail : </source>
           <note from="Developer" annotates="general" priority="2"></note>
