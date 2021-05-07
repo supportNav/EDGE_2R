@@ -45,6 +45,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Extension - Field Shipping Agent Service Descr. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1910663058 - Field 717125220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Assigned User Mail</source>
+          <target>E-mail : </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Extension - Field Assigned User Mail - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1910663058 - Field 3064976695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Assigned User Phone</source>
+          <target>Tél : </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Extension - Field Assigned User Phone - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3814193669 - NamedType 1703315404" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 3814193669">
+          <source>Shipping Agent Services</source>
+           <target>Prestations transporteur </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesQuoteExt - NamedType ShipAgentPrestaLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3814193669 - NamedType 2207515347" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 3814193669">
+          <source>Shipping Agent Name</source>
+          <target>Nom transporteur </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesQuoteExt - NamedType ShippingAgentLbl</note>
+        </trans-unit>
       </group>
     </body>
   </file>

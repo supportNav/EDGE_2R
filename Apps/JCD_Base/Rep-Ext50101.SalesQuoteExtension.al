@@ -12,6 +12,18 @@ reportextension 50101 SalesQuoteExt extends "Standard Sales - Quote"
             column(TradeRegister; InfoCompany."Trade Register") { }
             column(ShipAgent; header."Shipping Agent Name") { }
             column(ShipAgentPresta; Header."Shipping Agent Service Descr.") { }
+            column(RealizedByLbl; RealizedBy) { }
+            column(WebSiteLbl_Lbl; WebSiteLbl) { }
+            column(TelLbl_Lbl; TelLbl) { }
+            column(EmailTxtLbl_Lbl; EmailTxtLbl) { }
+            column(ShippingAgentLbl_Blb; ShippingAgentLbl) { }
+            column(ShipAgentPrestaLbl_Lbl; ShipAgentPrestaLbl) { }
+            column(AssignedUserPhone; Header."Assigned User Phone") { }
+            column(AssignedUserMail; header."Assigned User Mail") { }
+        }
+        add(Line)
+        {
+            column(ReferenceLbl_Lbl; ReferenceLbl) { }
         }
     }
     var
@@ -23,4 +35,6 @@ reportextension 50101 SalesQuoteExt extends "Standard Sales - Quote"
         TelLbl: Label 'Phone No. :';
         EMailTxtLbl: Label 'E-mail : ';
         RealizedBy: Label 'Realized by :';
+        ShippingAgentLbl: Label 'Shipping Agent Name';
+        ShipAgentPrestaLbl: Label 'Shipping Agent Services';
 }
