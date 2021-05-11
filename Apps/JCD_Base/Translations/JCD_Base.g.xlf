@@ -28,6 +28,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesOrderExt - NamedType EMailTxtLbl</note>
         </trans-unit>
+        <trans-unit id="ReportExtension 1552137841 - NamedType 1729793249" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1552137841">
+          <source>Order Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesOrderExt - NamedType OrderDate_Lbl</note>
+        </trans-unit>
         <trans-unit id="ReportExtension 1552137841 - NamedType 1053741269" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1552137841">
           <source>Realized by :</source>
           <note from="Developer" annotates="general" priority="2"></note>

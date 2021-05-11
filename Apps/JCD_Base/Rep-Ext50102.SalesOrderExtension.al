@@ -3,6 +3,7 @@
 /// </summary>
 reportextension 50102 SalesOrderExt extends "Standard Sales - Order Conf."
 {
+
     dataset
     {
         add(Header)
@@ -20,12 +21,19 @@ reportextension 50102 SalesOrderExt extends "Standard Sales - Order Conf."
             column(ShipAgentPrestaLbl_Lbl; ShipAgentPrestaLbl) { }
             column(AssignedUserPhone; Header."Assigned User Phone") { }
             column(AssignedUserMail; header."Assigned User Mail") { }
+            column(SelltoContactName; Header."Sell-to Contact") { }
+            column(OrderDate; Header."Order Date") { }
         }
         add(Line)
         {
             column(ReferenceLbl_Lbl; ReferenceLbl) { }
         }
     }
+    trigger OnPreReport()
+    Begin
+        InfoCompany.GET;
+    end;
+
     var
         ShippingAgent: Record "Shipping Agent";
         ShippingAgentPrest: Record "Shipping Agent Services";
@@ -37,4 +45,6 @@ reportextension 50102 SalesOrderExt extends "Standard Sales - Order Conf."
         RealizedBy: Label 'Realized by :';
         ShippingAgentLbl: Label 'Shipping Agent Name';
         ShipAgentPrestaLbl: Label 'Shipping Agent Services';
+        OrderDate_Lbl: Label 'Order Date';
+
 }

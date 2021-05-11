@@ -20,12 +20,18 @@ reportextension 50101 SalesQuoteExt extends "Standard Sales - Quote"
             column(ShipAgentPrestaLbl_Lbl; ShipAgentPrestaLbl) { }
             column(AssignedUserPhone; Header."Assigned User Phone") { }
             column(AssignedUserMail; header."Assigned User Mail") { }
+            column(SelltoContactName; Header."Sell-to Contact") { }
         }
         add(Line)
         {
             column(ReferenceLbl_Lbl; ReferenceLbl) { }
         }
     }
+    trigger OnPreReport()
+    Begin
+        InfoCompany.GET;
+    end;
+
     var
         ShippingAgent: Record "Shipping Agent";
         ShippingAgentPrest: Record "Shipping Agent Services";
