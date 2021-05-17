@@ -1,31 +1,30 @@
 /// <summary>
 /// SalesQuoteExt (ID 50101) extends Record Standard Sales - Quote.
 /// </summary>
-reportextension 50102 SalesOrderExt extends "Standard Sales - Order Conf."
+reportextension 50103 SalesShipmentExt extends "Sales - Shipment"
 {
 
     dataset
     {
-        add(Header)
+        add("Sales Shipment Header")
         {
-            column(AssignedUserID; Header."Assigned User ID") { }
             column(APECode; InfoCompany."APE Code") { }
             column(TradeRegister; InfoCompany."Trade Register") { }
-            column(ShipAgent; header."Shipping Agent Name") { }
-            column(ShipAgentPresta; Header."Shipping Agent Service Descr.") { }
+            column(SIRET; InfoCompany."Registration No.") { }
+            column(ShipAgent; "Sales Shipment Header"."Shipping Agent Name") { }
+            column(ShipAgentPresta; "Sales Shipment Header"."Shipping Agent Service Descr.") { }
             column(RealizedByLbl; RealizedBy) { }
             column(WebSiteLbl_Lbl; WebSiteLbl) { }
             column(TelLbl_Lbl; TelLbl) { }
             column(EmailTxtLbl_Lbl; EmailTxtLbl) { }
             column(ShippingAgentLbl_Blb; ShippingAgentLbl) { }
             column(ShipAgentPrestaLbl_Lbl; ShipAgentPrestaLbl) { }
-            column(AssignedUserPhone; Header."Assigned User Phone") { }
-            column(AssignedUserMail; header."Assigned User Mail") { }
-            column(SelltoContactName; Header."Sell-to Contact") { }
-            column(OrderDate; FORMAT(Header."Order Date")) { }
+            column(SelltoContactName; "Sales Shipment Header"."Sell-to Contact") { }
+            column(OrderDate; FORMAT("Sales Shipment Header"."Order Date")) { }
             column(OrderDateLbl_Lbl; OrderDate_Lbl) { }
+            column(SIRETLbl_Lbl; SIRETLbl_Lbl) { }
         }
-        add(Line)
+        add("Sales Shipment Line")
         {
             column(ReferenceLbl_Lbl; ReferenceLbl) { }
         }
@@ -47,5 +46,6 @@ reportextension 50102 SalesOrderExt extends "Standard Sales - Order Conf."
         ShippingAgentLbl: Label 'Shipping Agent Name';
         ShipAgentPrestaLbl: Label 'Shipping Agent Services';
         OrderDate_Lbl: Label 'Order Date';
+        SIRETLbl_Lbl: Label 'Registration No.';
 
 }

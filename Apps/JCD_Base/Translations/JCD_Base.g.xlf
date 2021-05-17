@@ -23,6 +23,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Extension - Field Shipping Agent Service Descr. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2970639580 - Field 3289079480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
+          <source>Shipping Agent Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Shipment Header Ext. - Field Shipping Agent Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2970639580 - Field 2131476365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
+          <source>Shipping Agent Service Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Shipment Header Ext. - Field Shipping Agent Service Descr. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="ReportExtension 1552137841 - NamedType 2779289930" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1552137841">
           <source>E-mail : </source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -97,6 +107,51 @@
           <source>Website :</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesQuoteExt - NamedType WebSiteLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2226626387 - NamedType 2779289930" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 2226626387">
+          <source>E-mail : </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesShipmentExt - NamedType EMailTxtLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2226626387 - NamedType 1729793249" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 2226626387">
+          <source>Order Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesShipmentExt - NamedType OrderDate_Lbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2226626387 - NamedType 1053741269" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 2226626387">
+          <source>Realized by :</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesShipmentExt - NamedType RealizedBy</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2226626387 - NamedType 1162595851" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 2226626387">
+          <source>Item Reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesShipmentExt - NamedType ReferenceLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2226626387 - NamedType 1703315404" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 2226626387">
+          <source>Shipping Agent Services</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesShipmentExt - NamedType ShipAgentPrestaLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2226626387 - NamedType 2207515347" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 2226626387">
+          <source>Shipping Agent Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesShipmentExt - NamedType ShippingAgentLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2226626387 - NamedType 217095634" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 2226626387">
+          <source>Registration No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesShipmentExt - NamedType SIRETLbl_Lbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2226626387 - NamedType 3817301937" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 2226626387">
+          <source>Phone No. :</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesShipmentExt - NamedType TelLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2226626387 - NamedType 1037529771" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 2226626387">
+          <source>Website :</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesShipmentExt - NamedType WebSiteLbl</note>
         </trans-unit>
       </group>
     </body>
