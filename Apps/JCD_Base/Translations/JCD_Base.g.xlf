@@ -118,6 +118,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesShipmentExt - NamedType OrderDate_Lbl</note>
         </trans-unit>
+        <trans-unit id="ReportExtension 2226626387 - NamedType 2662846860" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 2226626387">
+          <source>Sales Order Reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesShipmentExt - NamedType OrderReference_Lbl</note>
+        </trans-unit>
         <trans-unit id="ReportExtension 2226626387 - NamedType 1053741269" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 2226626387">
           <source>Realized by :</source>
           <note from="Developer" annotates="general" priority="2"></note>

@@ -23,6 +23,8 @@ reportextension 50103 SalesShipmentExt extends "Sales - Shipment"
             column(OrderDate; FORMAT("Sales Shipment Header"."Order Date")) { }
             column(OrderDateLbl_Lbl; OrderDate_Lbl) { }
             column(SIRETLbl_Lbl; SIRETLbl_Lbl) { }
+            column(LogoInfoSociete; InfoCOmpany.Picture) { }
+            column(OrderReference_Lbl; OrderReference_Lbl) { }
         }
         add("Sales Shipment Line")
         {
@@ -32,6 +34,7 @@ reportextension 50103 SalesShipmentExt extends "Sales - Shipment"
     trigger OnPreReport()
     Begin
         InfoCompany.GET;
+        InfoCompany.CalcFields(Picture);
     end;
 
     var
@@ -47,5 +50,6 @@ reportextension 50103 SalesShipmentExt extends "Sales - Shipment"
         ShipAgentPrestaLbl: Label 'Shipping Agent Services';
         OrderDate_Lbl: Label 'Order Date';
         SIRETLbl_Lbl: Label 'Registration No.';
+        OrderReference_Lbl: Label 'Sales Order Reference';
 
 }

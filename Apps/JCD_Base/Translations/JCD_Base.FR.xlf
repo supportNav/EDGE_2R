@@ -165,6 +165,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesShipmentExt - NamedType WebSiteLbl</note>
         </trans-unit>
+        <trans-unit id="ReportExtension 2226626387 - NamedType 2662846860" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 2226626387">
+          <source>Sales Order Reference</source>
+          <target>Référence commande : </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesShipmentExt - NamedType OrderReference_Lbl</note>
+        </trans-unit>
       </group>
     </body>
   </file>
