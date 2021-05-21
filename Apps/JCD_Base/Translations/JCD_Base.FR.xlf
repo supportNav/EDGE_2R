@@ -171,6 +171,54 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesShipmentExt - NamedType OrderReference_Lbl</note>
         </trans-unit>
+        <trans-unit id="ReportExtension 1925512004 - NamedType 2779289930" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
+          <source>E-mail : </source>
+          <target>E-mail : </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType EMailTxtLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1925512004 - NamedType 1729793249" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
+          <source>Order Date</source>
+          <target>Date commande </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType OrderDate_Lbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1925512004 - NamedType 2662846860" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
+          <source>Sales Order Reference</source>
+          <target>Référence commande : </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType OrderReference_Lbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1925512004 - NamedType 1053741269" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
+          <source>Realized by :</source>
+          <target>Réalisé par : </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType RealizedBy</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1925512004 - NamedType 1162595851" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
+          <source>Item Reference</source>
+          <target>Référence article </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType ReferenceLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1925512004 - NamedType 217095634" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
+          <source>Registration No.</source>
+          <target>N° SIRET :  </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType SIRETLbl_Lbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1925512004 - NamedType 3817301937" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
+          <source>Phone No. :</source>
+          <target>Tél :  </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType TelLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1925512004 - NamedType 1037529771" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
+          <source>Website :</source>
+          <target>Site Web :  </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType WebSiteLbl</note>
+        </trans-unit>
       </group>
     </body>
   </file>

@@ -3,6 +3,191 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="JCD_Base">
     <body>
       <group id="body">
+        <trans-unit id="Page 748212375 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Correction ecriture</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 58842943" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Facture service enreg.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType sText003</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 227751966" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Avoir service enreg.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType sText004</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 3885022645" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exp‚dition service enreg.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType sText005</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 1870504719" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commande service</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType sText021</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 3783594570" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Facture service</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType sText022</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 764020508" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Avoir service</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType sText024</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Aucune modification a effectuer !</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Les donnees ont ete modifiees.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Facture vente enregistree</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Avoir vente enregistre</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text004</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expedition vente enregistree</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text005</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 2008153173" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Relances emises</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text006</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 2645849790" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Factures d'int‚rˆts ‚mises</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text007</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 3283546407" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Facture achat enregistr‚e</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text008</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 3921243024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Avoir achat enregistr‚</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text009</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 1664139952" size-unit="char" translate="yes" xml:space="preserve">
+          <source>R‚ception achat enregistr‚e</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text010</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 1026443335" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Le num‚ro de document a ‚t‚ utilis‚ plusieurs fois.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text011</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 2939533186" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cette combinaison de num‚ro de document et de date de comptabilisation a ‚t‚ utilis‚e plusieurs fois.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text012</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 2301836569" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Il n'existe pas d'enregistrement comptabilis‚ avec ce num‚ro de document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text013</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 4214926420" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Il n'existe pas d'enregistrement pour cette combinaison de num‚ro de document et de date de comptabilisation.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text014</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 3577229803" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trop de documents externes ont ‚t‚ trouv‚s. Veuillez sp‚cifier un identifiant tiers.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text015</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 1195352358" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trop de documents externes ont ‚t‚ trouv‚s. Utilisez la fonction Naviguer … partir des ‚critures comptables correspondantes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text016</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 557655741" size-unit="char" translate="yes" xml:space="preserve">
+          <source>R‚ception retour enreg.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text017</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 857534312" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exp‚dition retour enreg.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text018</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 219837695" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exp‚dition transfert enreg.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text019</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 1940672225" size-unit="char" translate="yes" xml:space="preserve">
+          <source>R‚ception transfert enreg.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text020</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 2578368842" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commande vente</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text021</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 665278991" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Facture vente</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text022</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 1302975608" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Retour vente</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text023</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 196491397" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Avoir vente</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text024</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 834188014" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ordre d'assemblage valid‚</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text025</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 3216065459" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Banque %1 %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text026</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 3853762076" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Compte banque %1 introuvable !</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text027</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - NamedType 134040679" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ordre de fabrication</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text99000000</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - Action 2522255946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Corriger ecriture(s)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - Action CorrigerEcriture - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4168943666 - Action 2040917903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
+          <source>Correction écriture</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GL Entry Extension - Action CorrectionEcriture - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1910663058 - Field 717125220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Assigned User Mail</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -32,6 +217,66 @@
           <source>Shipping Agent Service Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Shipment Header Ext. - Field Shipping Agent Service Descr. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1925512004 - NamedType 2445355270" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
+          <source>BIC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType BICLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1925512004 - NamedType 2779289930" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
+          <source>E-mail : </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType EMailTxtLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1925512004 - NamedType 416272378" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
+          <source>IBAN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType IBANLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1925512004 - NamedType 1729793249" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
+          <source>Order Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType OrderDate_Lbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1925512004 - NamedType 2662846860" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
+          <source>Sales Order Reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType OrderReference_Lbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1925512004 - NamedType 1053741269" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
+          <source>Realized by :</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType RealizedBy</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1925512004 - NamedType 1162595851" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
+          <source>Item Reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType ReferenceLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1925512004 - NamedType 1703315404" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
+          <source>Shipping Agent Services</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType ShipAgentPrestaLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1925512004 - NamedType 2207515347" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
+          <source>Shipping Agent Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType ShippingAgentLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1925512004 - NamedType 217095634" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
+          <source>Registration No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType SIRETLbl_Lbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1925512004 - NamedType 3817301937" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
+          <source>Phone No. :</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType TelLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1925512004 - NamedType 1037529771" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
+          <source>Website :</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType WebSiteLbl</note>
         </trans-unit>
         <trans-unit id="ReportExtension 1552137841 - NamedType 2779289930" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1552137841">
           <source>E-mail : </source>
