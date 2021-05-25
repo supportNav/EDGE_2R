@@ -225,6 +225,58 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType WebSiteLbl</note>
         </trans-unit>
+        <trans-unit id="ReportExtension 1812468165 - NamedType 2779289930" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1812468165">
+          <source>E-mail : </source>
+          <target>E-mail :  </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension PurchOrderExt - NamedType EMailTxtLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1812468165 - NamedType 1729793249" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1812468165">
+          <source>Order Date</source>
+          <target>Date commande  </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension PurchOrderExt - NamedType OrderDate_Lbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1812468165 - NamedType 2662846860" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1812468165">
+          <source>Sales Order Reference</source>
+          <target>Référence commande  </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension PurchOrderExt - NamedType OrderReference_Lbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1812468165 - NamedType 1053741269" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1812468165">
+          <source>Realized by :</source>
+          <target>Réalisé par :  </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension PurchOrderExt - NamedType RealizedBy</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1812468165 - NamedType 1162595851" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1812468165">
+          <source>Item Reference</source>
+          <target>Référence article  </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension PurchOrderExt - NamedType ReferenceLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1812468165 - NamedType 1703315404" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1812468165">
+          <source>Shipping Agent Services</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension PurchOrderExt - NamedType ShipAgentPrestaLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1812468165 - NamedType 2207515347" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1812468165">
+          <source>Shipping Agent Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension PurchOrderExt - NamedType ShippingAgentLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1812468165 - NamedType 3817301937" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1812468165">
+          <source>Phone No. :</source>
+          <target>Tél :  </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension PurchOrderExt - NamedType TelLbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1812468165 - NamedType 1037529771" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1812468165">
+          <source>Website :</source>
+          <target>Site web :  </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension PurchOrderExt - NamedType WebSiteLbl</note>
+        </trans-unit>
       </group>
     </body>
   </file>
