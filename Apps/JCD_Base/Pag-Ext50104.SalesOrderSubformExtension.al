@@ -17,5 +17,9 @@ pageextension 50104 "Sales Order Subform Extension" extends "Sales Order Subform
         {
             Visible = true;
         }
+        modify("Drop Shipment")
+        {
+            Visible = true;
+        }
     }
 }

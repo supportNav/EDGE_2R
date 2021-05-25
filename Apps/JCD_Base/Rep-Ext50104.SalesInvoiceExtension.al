@@ -20,13 +20,16 @@ reportextension 50104 SalesInvoiceExt extends "Standard Sales - Invoice"
             column(ShippingAgentLbl_Blb; ShippingAgentLbl) { }
             column(ShipAgentPrestaLbl_Lbl; ShipAgentPrestaLbl) { }
             column(SelltoContactName; Header."Sell-to Contact") { }
-            column(OrderDate; FORMAT(Header."Order Date")) { }
+            column(OrderDate; FORMAT(Header."Posting Date")) { }
             column(OrderDateLbl_Lbl; OrderDate_Lbl) { }
             column(SIRETLbl_Lbl; SIRETLbl_Lbl) { }
             column(LogoInfoSociete; InfoCOmpany.Picture) { }
             column(OrderReference_Lbl; OrderReference_Lbl) { }
             column(BICLbl; BICLbl) { }
             column(IBANLbl; IBANLbl) { }
+            column(AssignedUserPhone; Header."Assigned User Phone") { }
+            column(AssignedUserMail; header."Assigned User Mail") { }
+            column(Assigned_User_ID; "Assigned User ID") { }
         }
         add(Line)
         {
@@ -50,7 +53,7 @@ reportextension 50104 SalesInvoiceExt extends "Standard Sales - Invoice"
         RealizedBy: Label 'Realized by :';
         ShippingAgentLbl: Label 'Shipping Agent Name';
         ShipAgentPrestaLbl: Label 'Shipping Agent Services';
-        OrderDate_Lbl: Label 'Order Date';
+        OrderDate_Lbl: Label 'Posting Date';
         SIRETLbl_Lbl: Label 'Registration No.';
         OrderReference_Lbl: Label 'Sales Order Reference';
         BICLbl: Label 'BIC';

@@ -105,6 +105,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesOrderExt - NamedType ShippingAgentLbl</note>
         </trans-unit>
+        <trans-unit id="ReportExtension 1552137841 - NamedType 2662846860" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1552137841">
+          <source>Sales Order Reference</source>
+          <target>Référence commande : </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesOrderExt - NamedType OrderReference_Lbl</note>
+        </trans-unit>
         <trans-unit id="ReportExtension 1552137841 - NamedType 3817301937" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1552137841">
           <source>Phone No. :</source>
           <target>Tél : </target>
@@ -178,8 +184,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType EMailTxtLbl</note>
         </trans-unit>
         <trans-unit id="ReportExtension 1925512004 - NamedType 1729793249" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
-          <source>Order Date</source>
-          <target>Date commande </target>
+          <source>Posting Date</source>
+          <target>Date facture </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType OrderDate_Lbl</note>
         </trans-unit>

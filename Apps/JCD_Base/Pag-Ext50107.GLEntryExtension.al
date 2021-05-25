@@ -10,15 +10,11 @@ pageextension 50107 "GL Entry Extension" extends "General Ledger Entries"
             action(CorrectionEcriture)
             {
                 Caption = 'Correction écriture';
+                ApplicationArea = Basic, Suite;
                 Image = Entries;
-
-                trigger OnAction()
-                VAR
-                    GLAccount: Record 15;
-                BEGIN
-                    PAGE.RUN(50059, Rec);
-                END;
-
+                RunPageMode = Edit;
+                RunObject = Page "Correction ecriture";
+                RunPageLink = "Entry No." = FIELD("Entry No.");
             }
         }
     }

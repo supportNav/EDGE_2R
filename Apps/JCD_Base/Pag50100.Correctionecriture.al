@@ -8,20 +8,20 @@ page 50100 "Correction ecriture"
     PageType = Card;
     SourceTable = "G/L Entry";
     DeleteAllowed = False;
-    Permissions = TableData 17 = m,
-            TableData 21 = m,
-            TableData 25 = m,
-            TableData 112 = m,
-            TableData 114 = m,
-            TableData 122 = m,
-            TableData 123 = m,
-            TableData 124 = m,
-            TableData 125 = m,
-            TableData 254 = m,
-            TableData 271 = m,
-            TableData 379 = m,
-            TableData 380 = m,
-            TableData 5802 = m;
+    Permissions = TableData "G/L Entry" = m,
+            TableData "Cust. Ledger Entry" = m,
+            TableData "Item Ledger Entry" = m,
+            TableData "Sales Invoice Header" = m,
+            TableData "Sales Cr.Memo Header" = m,
+            TableData "Purch. Inv. Header" = m,
+            TableData "Purch. Inv. Line" = m,
+            TableData "Purch. Cr. Memo Hdr." = m,
+            TableData "Purch. Cr. Memo Line" = m,
+            TableData "VAT Entry" = m,
+            TableData "Bank Account Ledger Entry" = m,
+            TableData "Detailed Cust. Ledg. Entry" = m,
+            TableData "Detailed Vendor Ledg. Entry" = m,
+            TableData "Value Entry" = m;
 
 
     layout
@@ -30,49 +30,43 @@ page 50100 "Correction ecriture"
         {
             group(General)
             {
+                Caption = 'General';
                 field(DocNo; Rec."Document No.")
                 {
+                    ApplicationArea = Basic, Suite;
+                    Visible = True;
                     Editable = false;
                 }
                 field(PostingDate; Rec."Posting Date")
                 {
-                    Editable = false;
-                }
-
-                field(GLAccount; Rec."G/L Account No.")
-                {
+                    ApplicationArea = Basic, Suite;
                     Editable = false;
                 }
 
                 field(Descr; Rec.Description)
                 {
+                    ApplicationArea = Basic, Suite;
                     Editable = false;
-                }
-                field(NewDoc; NewDocNo)
-                {
-                    Editable = true;
                 }
 
                 field(NewDocDate; NewDocumentDate)
                 {
+                    ApplicationArea = Basic, Suite;
+                    Caption = 'Nouvelle date';
                     Editable = True;
                 }
 
-                field(NewAccount; NewGlaccount)
-                {
-                    Editable = True;
-                }
-                field(NewDescr; NewDescription)
-                {
-                    Editable = True;
-                }
 
                 field(OLine; OneLine)
                 {
+                    ApplicationArea = Basic, Suite;
+                    Caption = 'Une seule ligne';
                     Editable = TRUE;
                 }
                 field(ALines; AllLines)
                 {
+                    ApplicationArea = Basic, Suite;
+                    Caption = 'Toutes les lignes';
                     Editable = true;
                 }
             }
@@ -85,10 +79,12 @@ page 50100 "Correction ecriture"
             action(CorrigerEcriture)
             {
                 Caption = 'Corriger ecriture(s)';
+                ApplicationArea = Basic, Suite;
                 Promoted = true;
                 PromotedIsBig = true;
                 Image = Apply;
                 PromotedCategory = Process;
+
                 trigger OnAction()
                 BEGIN
                     //->RPE210316
@@ -429,6 +425,10 @@ page 50100 "Correction ecriture"
                     DtldVendLedgEntry."Initial Entry Global Dim. 2" := NewJob;
                     DtldVendLedgEntry.MODIFY(TRUE);
                 END;
+                IF NewDocumentDate <> 0D THEN begin
+                    DtldVendLedgEntry."Posting Date" := NewDocumentDate;
+                    DtldVendLedgEntry.Modify(TRUE);
+                end;
             UNTIL (DtldVendLedgEntry.NEXT = 0);
 
         // Modify ItemLedgEntry
@@ -968,6 +968,7 @@ page 50100 "Correction ecriture"
 
             IF NewDocumentDate <> 0D THEN BEGIN
                 PurchInvHeader."Document Date" := NewDocumentDate;
+                PurchInvHeader."Posting Date" := NewDocumentDate;
                 PurchInvHeader.MODIFY(TRUE);
             END;
 
@@ -1222,6 +1223,8 @@ page 50100 "Correction ecriture"
             //<-RPE210316
             DocNoFilter := Rec."Document No.";
             PostingDateFilter := FORMAT(Rec."Posting Date");
+            AllLines := True;
+
             IF AllLines = TRUE
               THEN
                 Correctionalllines

@@ -178,6 +178,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - NamedType Text99000000</note>
         </trans-unit>
+        <trans-unit id="Page 748212375 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - Control 3674561184 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Toutes les lignes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - Control ALines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - Control 2861030036 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nouvelle date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - Control NewDocDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 748212375 - Control 3701767507 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Une seule ligne</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - Control OLine - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 748212375 - Action 2522255946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Corriger ecriture(s)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -208,6 +228,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Extension - Field Shipping Agent Service Descr. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1971362123 - Field 3294270728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Assigned User ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Inv. Header Extension - Field Assigned User ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971362123 - Field 717125220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Assigned User Mail</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Inv. Header Extension - Field Assigned User Mail - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1971362123 - Field 3064976695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Assigned User Phone</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Inv. Header Extension - Field Assigned User Phone - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2970639580 - Field 3289079480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
           <source>Shipping Agent Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -234,7 +269,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType IBANLbl</note>
         </trans-unit>
         <trans-unit id="ReportExtension 1925512004 - NamedType 1729793249" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1925512004">
-          <source>Order Date</source>
+          <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesInvoiceExt - NamedType OrderDate_Lbl</note>
         </trans-unit>
@@ -287,6 +322,11 @@
           <source>Order Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesOrderExt - NamedType OrderDate_Lbl</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 1552137841 - NamedType 2662846860" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1552137841">
+          <source>Sales Order Reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension SalesOrderExt - NamedType OrderReference_Lbl</note>
         </trans-unit>
         <trans-unit id="ReportExtension 1552137841 - NamedType 1053741269" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1552137841">
           <source>Realized by :</source>

@@ -24,6 +24,7 @@ reportextension 50102 SalesOrderExt extends "Standard Sales - Order Conf."
             column(SelltoContactName; Header."Sell-to Contact") { }
             column(OrderDate; FORMAT(Header."Order Date")) { }
             column(OrderDateLbl_Lbl; OrderDate_Lbl) { }
+            column(OrderReference_Lbl; OrderReference_Lbl) { }
         }
         add(Line)
         {
@@ -47,5 +48,5 @@ reportextension 50102 SalesOrderExt extends "Standard Sales - Order Conf."
         ShippingAgentLbl: Label 'Shipping Agent Name';
         ShipAgentPrestaLbl: Label 'Shipping Agent Services';
         OrderDate_Lbl: Label 'Order Date';
-
+        OrderReference_Lbl: Label 'Sales Order Reference';
 }
