@@ -34,6 +34,11 @@ reportextension 50104 SalesInvoiceExt extends "Standard Sales - Invoice"
         add(Line)
         {
             column(ReferenceLbl_Lbl; ReferenceLbl) { }
+            column(UnitPriceRounded; ROUND(Line."Unit Price", 0.01))
+            {
+                AutoFormatExpression = GetCUrrencyCode;
+                AutoFormatType = 2;
+            }
         }
     }
     trigger OnPreReport()

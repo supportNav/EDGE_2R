@@ -17,5 +17,15 @@ tableextension 50102 "Sales Shipment Header Ext." extends "Sales Shipment Header
             Caption = 'Shipping Agent Service Description';
             CalcFormula = Lookup("Shipping Agent Services"."Description" WHERE("Shipping Agent Code" = Field("Shipping Agent Code"), "Code" = Field("Shipping Agent Service Code")));
         }
+        field(50104; "Motif refus devis"; Text[200])
+        {
+            Caption = 'Motif refus devis';
+            Editable = true;
+        }
+        field(50105; "Marge globale"; Decimal)
+        {
+            Caption = 'Marge globale';
+            Editable = true;
+        }
     }
 }

@@ -1,7 +1,7 @@
 /// <summary>
 /// TableExtension Sales Header Extension (ID 50101) extends Record Sales Header.
 /// </summary>
-tableextension 50103 "Sales Inv. Header Extension" extends "Sales Invoice Header"
+tableextension 50106 "Sales Cr.Memo Header Extension" extends "Sales Cr.Memo Header"
 {
     fields
     {

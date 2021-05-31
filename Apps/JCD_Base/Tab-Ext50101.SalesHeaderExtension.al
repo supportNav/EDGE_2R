@@ -31,5 +31,15 @@ tableextension 50101 "Sales Header Extension" extends "Sales Header"
             CalcFormula = Lookup("User Setup"."Phone No." WHERE("User ID" = Field("Assigned User ID")));
 
         }
+        field(50104; "Motif refus devis"; Text[200])
+        {
+            Caption = 'Motif refus devis';
+            Editable = true;
+        }
+        field(50105; "Marge globale"; Decimal)
+        {
+            Caption = 'Marge globale';
+            Editable = true;
+        }
     }
 }

@@ -13,6 +13,21 @@ pageextension 50103 "Sales Quote Subform Extension" extends "Sales Quote Subform
                 Editable = true;
             }
         }
+        addafter("Invoice Discount Amount")
+        {
+            field(MargeGlobale; TotalSalesHeader."Marge globale")
+            {
+                Caption = 'Marge globale';
+                ApplicationArea = All;
+                Editable = true;
+
+
+                trigger OnValidate()
+                begin
+                    CurrPage.UPDATE;
+                end;
+            }
+        }
         modify("Unit Cost (LCY)")
         {
             Visible = true;

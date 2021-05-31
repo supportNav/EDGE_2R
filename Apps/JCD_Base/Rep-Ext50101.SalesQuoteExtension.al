@@ -25,6 +25,11 @@ reportextension 50101 SalesQuoteExt extends "Standard Sales - Quote"
         add(Line)
         {
             column(ReferenceLbl_Lbl; ReferenceLbl) { }
+            column(UnitPriceRounded; ROUND(Line."Unit Price", 0.01))
+            {
+                AutoFormatExpression = "Currency Code";
+                AutoFormatType = 2;
+            }
         }
     }
     trigger OnPreReport()
