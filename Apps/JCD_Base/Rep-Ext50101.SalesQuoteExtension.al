@@ -19,13 +19,13 @@ reportextension 50101 SalesQuoteExt extends "Standard Sales - Quote"
             column(ShippingAgentLbl_Blb; ShippingAgentLbl) { }
             column(ShipAgentPrestaLbl_Lbl; ShipAgentPrestaLbl) { }
             column(AssignedUserPhone; Header."Assigned User Phone") { }
-            column(AssignedUserMail; header."Assigned User Mail") { }
+            column(AssignedUserMail; Header."Assigned User Mail") { }
             column(SelltoContactName; Header."Sell-to Contact") { }
         }
         add(Line)
         {
             column(ReferenceLbl_Lbl; ReferenceLbl) { }
-            column(UnitPriceRounded; ROUND(Line."Unit Price", 0.01))
+            column(UnitPriceRounded; EDGECOdeunit.RoundAndBlankZero(FORMAT(ROUND(Line."Unit Price", 0.01))))
             {
                 AutoFormatExpression = "Currency Code";
                 AutoFormatType = 2;
@@ -48,4 +48,5 @@ reportextension 50101 SalesQuoteExt extends "Standard Sales - Quote"
         RealizedBy: Label 'Realized by :';
         ShippingAgentLbl: Label 'Shipping Agent Name';
         ShipAgentPrestaLbl: Label 'Shipping Agent Services';
+        EDGECOdeunit: Codeunit "EDGE 2R Extension";
 }

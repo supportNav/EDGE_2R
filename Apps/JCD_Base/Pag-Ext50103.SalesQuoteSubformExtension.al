@@ -15,16 +15,20 @@ pageextension 50103 "Sales Quote Subform Extension" extends "Sales Quote Subform
         }
         addafter("Invoice Discount Amount")
         {
-            field(MargeGlobale; TotalSalesHeader."Marge globale")
+            field(MargeGlobale; MargeGlobale)
             {
                 Caption = 'Marge globale';
                 ApplicationArea = All;
                 Editable = true;
 
-
                 trigger OnValidate()
                 begin
-                    CurrPage.UPDATE;
+                    SHeader.GET(Rec."Document Type", Rec."Document No.");
+
+                    SHeader.Validate("Marge globale", MargeGlobale);
+                    SHeader.Modify(true);
+
+                    DocTotals.RefreshSalesLine(Rec);
                 end;
             }
         }
@@ -32,5 +36,17 @@ pageextension 50103 "Sales Quote Subform Extension" extends "Sales Quote Subform
         {
             Visible = true;
         }
+
     }
+    trigger OnAfterGetCurrRecord()
+    begin
+        SHeader.GET(Rec."Document Type", Rec."Document No.");
+
+        MargeGlobale := SHeader."Marge globale";
+    end;
+
+    var
+        MargeGlobale: Decimal;
+        SHeader: Record "Sales Header";
+        DocTotals: Codeunit "Document Totals";
 }

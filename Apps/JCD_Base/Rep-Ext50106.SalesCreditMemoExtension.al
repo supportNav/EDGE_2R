@@ -28,15 +28,15 @@ reportextension 50106 SalesCrMemoExt extends "Standard Sales - Credit Memo"
             column(BICLbl; BICLbl) { }
             column(IBANLbl; IBANLbl) { }
             column(AssignedUserPhone; Header."Assigned User Phone") { }
-            column(AssignedUserMail; header."Assigned User Mail") { }
+            column(AssignedUserMail; Header."Assigned User Mail") { }
             column(Assigned_User_ID; "Assigned User ID") { }
         }
         add(Line)
         {
             column(ReferenceLbl_Lbl; ReferenceLbl) { }
-            column(UnitPriceRounded; ROUND(Line."Unit Price", 0.01))
+            column(UnitPriceRounded; EDGECOdeunit.RoundAndBlankZero(FORMAT(ROUND(Line."Unit Price", 0.01))))
             {
-                AutoFormatExpression = GetCUrrencyCode;
+                AutoFormatExpression = GetCurrencyCode;
                 AutoFormatType = 2;
             }
         }
@@ -63,4 +63,6 @@ reportextension 50106 SalesCrMemoExt extends "Standard Sales - Credit Memo"
         OrderReference_Lbl: Label 'Sales Order Reference';
         BICLbl: Label 'BIC';
         IBANLbl: Label 'IBAN';
+
+        EDGECOdeunit: Codeunit "EDGE 2R Extension";
 }

@@ -28,7 +28,7 @@ reportextension 50105 PurchOrderExt extends "Standard Purchase - Order"
         add("Purchase Line")
         {
             column(ReferenceLbl_Lbl; ReferenceLbl) { }
-            column(UnitPriceRounded; ROUND("Purchase Line"."Direct Unit Cost", 0.01))
+            column(UnitPriceRounded; EDGECOdeunit.RoundAndBlankZero(FORMAT(ROUND("Purchase Line"."Direct Unit Cost", 0.01))))
             {
                 AutoFormatExpression = "Currency Code";
                 AutoFormatType = 2;
@@ -53,4 +53,5 @@ reportextension 50105 PurchOrderExt extends "Standard Purchase - Order"
         ShipAgentPrestaLbl: Label 'Shipping Agent Services';
         OrderDate_Lbl: Label 'Order Date';
         OrderReference_Lbl: Label 'Sales Order Reference';
+        EDGECOdeunit: Codeunit "EDGE 2R Extension";
 }

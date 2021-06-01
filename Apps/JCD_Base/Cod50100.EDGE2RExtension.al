@@ -3,29 +3,80 @@
 /// </summary>
 codeunit 50100 "EDGE 2R Extension"
 {
-    EventSubscriberInstance = StaticAutomatic;
+    Permissions = TableData "G/L Entry" = m,
+        TableData "Cust. Ledger Entry" = m,
+        TableData "Item Ledger Entry" = m,
+        TableData "Sales Invoice Header" = m,
+        TableData "Sales Cr.Memo Header" = m,
+        TableData "Purch. Inv. Header" = m,
+        TableData "Purch. Inv. Line" = m,
+        TableData "Purch. Cr. Memo Hdr." = m,
+        TableData "Purch. Cr. Memo Line" = m,
+        TableData "VAT Entry" = m,
+        TableData "Bank Account Ledger Entry" = m,
+        TableData "Detailed Cust. Ledg. Entry" = m,
+        TableData "Detailed Vendor Ledg. Entry" = m,
+        TableData "Value Entry" = m;
 
-    [EventSubscriber(ObjectType::Codeunit, codeunit::"Sales-Post", 'OnInsertPostedHeadersOnBeforeInsertInvoiceHeader', '', true, true)]
-    local procedure TransfertSpecFields(SalesHeader: Record "Sales Header"; var IsHandled: Boolean; SalesInvHeader: Record "Sales Invoice Header")
+    [EventSubscriber(ObjectType::Codeunit, codeunit::"Sales-Post", 'OnAfterInsertPostedHeaders', '', true, true)]
+    local procedure TransfertSpecFields(var SalesHeader: Record "Sales Header"; var SalesShipmentHeader: Record "Sales Shipment Header"; var SalesInvoiceHeader: Record "Sales Invoice Header"; var SalesCrMemoHdr: Record "Sales Cr.Memo Header"; var ReceiptHeader: Record "Return Receipt Header")
     begin
-        SalesInvHeader."Assigned User ID" := SalesHeader."Assigned User ID";
-        SalesInvHeader.Modify(true);
+        SalesInvoiceHeader."Assigned User ID" := SalesHeader."Assigned User ID";
+        SalesInvoiceHeader.Modify(true);
     end;
 
-    [EventSubscriber(ObjectType::Table, 36, 'OnAfterValidateEvent', 'Marge globale', true, true)]
+    [EventSubscriber(ObjectType::Table, Database::"Sales Header", 'OnAfterValidateEvent', 'Marge globale', true, true)]
     local procedure T36SalesHeader_OnAfterValidateMargeGlobale(var Rec: Record "Sales Header")
     var
         SalesLine: Record "Sales Line";
     begin
-        MESSAGE('OK');
         SalesLine.Reset;
         SalesLine.SetRange("Document Type", Rec."Document Type");
         SalesLine.SetRange("Document No.", Rec."No.");
         SalesLine.SetFilter(Quantity, '<>%1', 0);
         if SalesLine.FindFirst then
             repeat
-                SalesLine.Validate("Profit %", rec."Marge globale");
+                SalesLine.Validate("Profit %", Rec."Marge Globale");
                 SalesLine.Modify(true)
             until SalesLine.Next = 0;
+    end;
+
+    /// <summary>
+    /// RoundAndBlankZero.
+    /// </summary>
+    /// <param name="NumberFormated">Text.</param>
+    /// <returns>Return value of type Text.</returns>
+    procedure RoundAndBlankZero(NumberFormated: Text): Text
+    var
+        Number: Integer;
+    begin
+        IF Evaluate(Number, NumberFormated) and (Number = 0) then
+            exit('')
+        ELSE
+            exit(NumberFormated);
+    end;
+    /// <summary>
+    /// StyleSalesDescr.
+    /// </summary>
+    /// <param name="SalesLine">Record "Sales Line".</param>
+    /// <returns>Return value of type Text.</returns>
+    procedure SalesCommentDescr(SalesLine: Record "Sales Line"): Text
+    begin
+        If SalesLine.Type = SalesLine.Type::" " then
+            exit(SalesLine.Description)
+        else
+            exit('');
+    end;
+    /// <summary>
+    /// SalesItemDescr.
+    /// </summary>
+    /// <param name="SalesLine">Record "Sales Line".</param>
+    /// <returns>Return value of type Text.</returns>
+    procedure SalesItemDescr(SalesLine: Record "Sales Line"): Text
+    begin
+        If SalesLine.Type = SalesLine.Type::" " then
+            exit('')
+        else
+            exit(SalesLine.Description);
     end;
 }
