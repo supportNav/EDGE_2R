@@ -21,8 +21,10 @@ codeunit 50100 "EDGE 2R Extension"
     [EventSubscriber(ObjectType::Codeunit, codeunit::"Sales-Post", 'OnAfterInsertPostedHeaders', '', true, true)]
     local procedure TransfertSpecFields(var SalesHeader: Record "Sales Header"; var SalesShipmentHeader: Record "Sales Shipment Header"; var SalesInvoiceHeader: Record "Sales Invoice Header"; var SalesCrMemoHdr: Record "Sales Cr.Memo Header"; var ReceiptHeader: Record "Return Receipt Header")
     begin
-        SalesInvoiceHeader."Assigned User ID" := SalesHeader."Assigned User ID";
-        SalesInvoiceHeader.Modify(true);
+        IF SalesHeader.Invoice THEN BEGIN
+            SalesInvoiceHeader."Assigned User ID" := SalesHeader."Assigned User ID";
+            SalesInvoiceHeader.Modify(true);
+        END;
     end;
 
     [EventSubscriber(ObjectType::Table, Database::"Sales Header", 'OnAfterValidateEvent', 'Marge globale', true, true)]
