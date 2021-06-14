@@ -5,6 +5,14 @@ pageextension 50103 "Sales Quote Subform Extension" extends "Sales Quote Subform
 {
     layout
     {
+        addafter("Line Amount")
+        {
+            field("Date de préparation"; Rec."Shipment Date")
+            {
+                ApplicationArea = All;
+                Editable = true;
+            }
+        }
         addafter("Unit Cost (LCY)")
         {
             field("Profit %"; Rec."Profit %")

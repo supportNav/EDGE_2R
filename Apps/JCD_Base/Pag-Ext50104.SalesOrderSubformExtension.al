@@ -5,6 +5,14 @@ pageextension 50104 "Sales Order Subform Extension" extends "Sales Order Subform
 {
     layout
     {
+        addafter("Line Amount")
+        {
+            field("Date de préparation"; Rec."Shipment Date")
+            {
+                ApplicationArea = All;
+                Editable = true;
+            }
+        }
         addafter("Unit Cost (LCY)")
         {
             field("Profit %"; Rec."Profit %")
