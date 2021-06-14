@@ -3,21 +3,6 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="JCD_Base">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 3848230742 - Method 231325732" size-unit="char" translate="yes" xml:space="preserve">
-          <source>RoundAndBlankZero</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDGE 2R Extension - Method RoundAndBlankZero</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3848230742 - Method 3362815173" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SalesCommentDescr</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDGE 2R Extension - Method SalesCommentDescr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3848230742 - Method 2407314675" size-unit="char" translate="yes" xml:space="preserve">
-          <source>SalesItemDescr</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDGE 2R Extension - Method SalesItemDescr</note>
-        </trans-unit>
         <trans-unit id="Page 748212375 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Correction ecriture</source>
           <note from="Developer" annotates="general" priority="2"></note>
