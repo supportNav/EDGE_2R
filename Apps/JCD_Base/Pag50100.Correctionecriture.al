@@ -23,7 +23,6 @@ page 50100 "Correction ecriture"
             TableData "Detailed Vendor Ledg. Entry" = m,
             TableData "Value Entry" = m;
 
-
     layout
     {
         area(content)
@@ -172,6 +171,11 @@ page 50100 "Correction ecriture"
         DateEch: Date;
         EcrFourn: Record 25;
         NewBankAccount: Code[20];
+
+    trigger OnOpenPage()
+    begin
+        AllLines := TRUE;
+    end;
 
     PROCEDURE Correctionalllines();
     VAR
