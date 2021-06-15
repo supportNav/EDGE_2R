@@ -11,7 +11,7 @@ pageextension 50104 "Sales Order Subform Extension" extends "Sales Order Subform
             {
                 ApplicationArea = All;
                 Editable = true;
-                VIsible = true;
+                Visible = true;
             }
         }
         addafter("Unit Cost (LCY)")
