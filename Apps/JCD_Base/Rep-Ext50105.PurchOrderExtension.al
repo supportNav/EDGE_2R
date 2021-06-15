@@ -24,6 +24,7 @@ reportextension 50105 PurchOrderExt extends "Standard Purchase - Order"
             column(OrderDateLbl_Lbl; OrderDate_Lbl) { }
             column(OrderReference_Lbl; OrderReference_Lbl) { }
             column(BuyFromVendorName; "Purchase header"."Buy-from Vendor Name") { }
+            column(Buy_from_Contact; "Purchase Header"."Buy-from Contact") { }
         }
         add("Purchase Line")
         {

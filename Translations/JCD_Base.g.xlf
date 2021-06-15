@@ -208,6 +208,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GL Entry Extension - Action CorrectionEcriture - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 598408218 - Action 2040917903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3434938165">
+          <source>Correction écriture</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Post. Sales Invoice Extension - Action CorrectionEcriture - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3839366959 - Control 3687336422 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2026081320">
           <source>Marge globale</source>
           <note from="Developer" annotates="general" priority="2"></note>
