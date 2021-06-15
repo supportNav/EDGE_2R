@@ -11,6 +11,7 @@ pageextension 50103 "Sales Quote Subform Extension" extends "Sales Quote Subform
             {
                 ApplicationArea = All;
                 Editable = true;
+                Visible = true;
             }
         }
         addafter("Unit Cost (LCY)")
