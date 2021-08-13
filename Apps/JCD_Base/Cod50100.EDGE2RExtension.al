@@ -43,6 +43,25 @@ codeunit 50100 "EDGE 2R Extension"
             until SalesLine.Next = 0;
     end;
 
+    [EventSubscriber(ObjectType::Table, Database::"Sales Header Archive", 'OnAfterInsertEvent', '', true, true)]
+    local procedure T5107_OnAfterInsertSalesHeaderArchive(var Rec: Record "Sales Header Archive")
+    var
+        SalesHeaderArchive: Record "Sales Header Archive";
+    begin
+        Rec."Last Archive" := true;
+        Rec.Modify;
+
+        SalesHeaderArchive.Reset;
+        SalesHeaderArchive.SetRange("Document Type", Rec."Document Type");
+        SalesHeaderArchive.SetRange("No.", Rec."No.");
+        SalesHeaderArchive.SetFilter("Version No.", '<%1', Rec."Version No.");
+        if SalesHeaderArchive.FindFirst then
+            repeat
+                SalesHeaderArchive.Validate("Last Archive", false);
+                SalesHeaderArchive.Modify(false);
+            until SalesHeaderArchive.Next = 0;
+
+    end;
     /// <summary>
     /// RoundAndBlankZero.
     /// </summary>

@@ -15,5 +15,12 @@ tableextension 50105 "Sales Header Archive Extension" extends "Sales Header Arch
             Caption = 'Marge globale';
             Editable = true;
         }
+
+        field(50106; "Last Archive"; Boolean)
+        {
+            Caption = 'Dernière Archive';
+            Editable = true;
+
+        }
     }
 }
