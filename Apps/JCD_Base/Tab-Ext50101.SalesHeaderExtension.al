@@ -41,5 +41,26 @@ tableextension 50101 "Sales Header Extension" extends "Sales Header"
             Caption = 'Marge globale';
             Editable = true;
         }
+        field(50106; "Refused"; Boolean)
+        {
+            Caption = 'Refusé';
+            Editable = true;
+        }
+        field(50107; "TransformedInOrder"; Code[20])
+        {
+            Caption = 'Transformé en commande';
+            Editable = true;
+        }
+        field(50108; "PrixRevientTotal"; Decimal)
+        {
+            Caption = 'Prix de revient total';
+            Editable = true;
+        }
+        field(50109; "Marge brut"; Decimal)
+        {
+            Caption = 'Marge brut';
+            Editable = true;
+        }
+
     }
 }

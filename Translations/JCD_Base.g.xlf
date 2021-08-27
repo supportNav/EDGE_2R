@@ -288,6 +288,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Quote and Archive List - Control External Document No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3947105595 - Control 3104203447 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pourcentage prix de vente / coûts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Quote and Archive List - Control Marge brut - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3947105595 - Control 2863561534 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Marge globale field</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -313,6 +318,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Quote and Archive List - Control Order Date - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3947105595 - Control 1857104882 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Somme des coûts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Quote and Archive List - Control PrixRevientTotal - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3947105595 - Control 581560053 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Quote Accepted field</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -332,6 +342,11 @@
           <source>Specifies the value of the Quote Valid To Date field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Quote and Archive List - Control Quote Valid Until Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3947105595 - Control 4146842754 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Devis refusé (oui ou non)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Quote and Archive List - Control Refused - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3947105595 - Control 135600996 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Requested Delivery Date field</source>
@@ -423,6 +438,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Quote and Archive List - Control Ship-to Post Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3947105595 - Control 1159235112 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>N° commande</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Quote and Archive List - Control TransformedInOrder - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3947105595 - Control 3001618318 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Your Reference field</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -508,6 +528,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Extension - Field Assigned User Phone - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1910663058 - Field 3104203447 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Marge brut</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Extension - Field Marge brut - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1910663058 - Field 2863561534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Marge globale</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -518,6 +543,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Extension - Field Motif refus devis - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1910663058 - Field 1857104882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Prix de revient total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Extension - Field PrixRevientTotal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1910663058 - Field 4146842754 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Refusé</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Extension - Field Refused - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1910663058 - Field 3289079480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Shipping Agent Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -527,6 +562,11 @@
           <source>Shipping Agent Service Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Extension - Field Shipping Agent Service Descr. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1910663058 - Field 1159235112 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Transformé en commande</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Extension - Field TransformedInOrder - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1971362123 - Field 3294270728 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
           <source>Assigned User ID</source>

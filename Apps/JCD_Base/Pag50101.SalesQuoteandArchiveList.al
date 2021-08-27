@@ -227,13 +227,41 @@ page 50101 "Sales Quote and Archive List"
                     ToolTip = 'Specifies the value of the Your Reference field';
                     ApplicationArea = All;
                 }
+                field(Refused; Rec.Refused)
+                {
+                    ToolTip = 'Devis refusé (oui ou non)';
+                    ApplicationArea = All;
+                    Editable = FALSE;
+
+                }
+                field(TransformedInOrder; Rec.TransformedInOrder)
+                {
+                    ToolTip = 'N° commande';
+                    ApplicationArea = All;
+                    Editable = FALSE;
+
+                }
+                field(PrixRevientTotal; Rec.PrixRevientTotal)
+                {
+                    ToolTip = 'Somme des coûts';
+                    ApplicationArea = All;
+                    Editable = FALSE;
+
+                }
+                field("Marge brut"; Rec."Marge brut")
+                {
+                    ToolTip = 'Pourcentage prix de vente / coûts';
+                    ApplicationArea = All;
+                    Editable = FALSE;
+
+                }
+
             }
         }
     }
 
     trigger OnOpenPage()
     begin
-
         InitTempTable();
     end;
 
@@ -247,6 +275,11 @@ page 50101 "Sales Quote and Archive List"
         i: Integer;
         TxtProgressQuote: Label 'Parcours des devis... @1@@@@@@@@@@';
         TxtProgressQuoteArch: Label 'Parcours des devis archivés... @1@@@@@@@@@@';
+        SalesHeaderSearch: Record "Sales Header";
+        SalesLine: Record "Sales Line";
+        SalesLineArchive: Record "Sales Line Archive";
+        TotalCost: Decimal;
+        TotalPrice: Decimal;
     begin
         Rec.DeleteAll;
 
@@ -272,14 +305,45 @@ page 50101 "Sales Quote and Archive List"
         //Parcours devis en cours
         SalesHeader.Reset;
         SalesHeader.SetRange("Document Type", SalesHeader."Document Type"::Quote);
-        IF SalesHeader.FindFirst then BEGIN
+        IF SalesHeader.FindFirst then begin
             i := 0;
             NbRec := SalesHeader.Count;
             Window.Open(TxtProgressQuote);
             repeat
                 Window.UPDATE(1, ROUND(i / NbRec * 10000, 1));
                 Rec := SalesHeader;
+                //recheche du n° commande si devis transformé en commande
+                SalesHeaderSearch.Reset();
+                SalesHeaderSearch.SetRange("Document Type", SalesHeaderSearch."Document Type"::Order);
+                SalesHeaderSearch.SetRange("Quote No.", SalesHeader."No.");
+                IF SalesHeaderSearch.FindFirst() then begin
+                    rec.TransformedInOrder := SalesHeaderSearch."No.";
+                end;
                 rec.Insert(FALSE);
+
+                //Devis refusé
+                IF Rec."Motif refus devis" <> '' then begin
+                    Rec.Refused := TRUE;
+                end else begin
+                    Rec.Refused := FALSE;
+                end;
+                //Calcul de la marge et du cout
+                TotalCost := 0;
+                TotalPrice := 0;
+                SalesLine.Reset();
+                SalesLine.SetRange("Document No.", Rec."No.");
+                SalesLine.SetRange("Document Type", SalesLine."Document Type"::Quote);
+                SalesLine.CalcSums("Unit Cost", "Unit Price");
+                TotalCost := SalesLine."Unit Cost";
+                TotalPrice := SalesLine."Unit Price";
+                Rec.PrixRevientTotal := TotalCost;
+                if TotalPrice <> 0 then begin
+                    Rec."Marge brut" := (TotalPrice - TotalCost) / TotalPrice * 100;
+                end else begin
+                    Rec."Marge brut" := 100;
+                end;
+
+                Rec.MODIFY(FALSE);
 
                 i := i + 1;
             Until SalesHeader.Next = 0;
@@ -303,7 +367,40 @@ page 50101 "Sales Quote and Archive List"
                 IF not SalesHeader.GET(SalesHeaderArch."Document Type", SalesHeaderArch."No.") then begin
                     rec.Init;
                     Rec.TransferFields(SalesHeaderArch);
+                    //recheche du n° commande si devis transformé en commande
+                    SalesHeaderSearch.Reset();
+                    SalesHeaderSearch.SetRange("Document Type", SalesHeaderSearch."Document Type"::Order);
+                    SalesHeaderSearch.SetRange("Quote No.", SalesHeaderArch."No.");
+                    IF SalesHeaderSearch.FindFirst() then begin
+                        rec.TransformedInOrder := SalesHeaderSearch."No.";
+                    end;
+
                     rec.Insert(false);
+
+                    //Devis refusé
+                    IF Rec."Motif refus devis" <> '' then begin
+                        Rec.Refused := TRUE;
+                    end else begin
+                        Rec.Refused := FALSE;
+                    end;
+                    //Calcul de la marge et du cout
+                    TotalCost := 0;
+                    TotalPrice := 0;
+                    SalesLineArchive.Reset();
+                    SalesLineArchive.SetRange("Document No.", Rec."No.");
+                    SalesLineArchive.SetRange("Document Type", SalesLineArchive."Document Type"::Quote);
+                    SalesLineArchive.CalcSums("Unit Cost", "Unit Price");
+                    TotalCost := SalesLineArchive."Unit Cost";
+                    TotalPrice := SalesLineArchive."Unit Price";
+                    Rec.PrixRevientTotal := TotalCost;
+                    if TotalPrice <> 0 then begin
+                        Rec."Marge brut" := (TotalPrice - TotalCost) / TotalPrice * 100;
+                    end else begin
+                        Rec."Marge brut" := 100;
+                    end;
+
+
+                    Rec.MODIFY(FALSE);
                 end;
 
                 i := i + 1;
@@ -313,4 +410,7 @@ page 50101 "Sales Quote and Archive List"
         end;
     end;
 
+    VAR
+        Refused: Boolean;
+        TransformedInOrder: Code[20];
 }
