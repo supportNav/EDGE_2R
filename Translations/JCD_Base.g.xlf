@@ -203,6 +203,56 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Correction ecriture - Action CorrigerEcriture - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2942960337 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Process,Report,Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ObjectList - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="Page 2942960337 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Liste des objets</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ObjectList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2942960337 - Action 1978894196 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Codeunits</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ObjectList - Action Codeunits - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2942960337 - Action 3066543932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pages</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ObjectList - Action Pages - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2942960337 - Action 2224959552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Queries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ObjectList - Action Queries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2942960337 - Action 2176459415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reports</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ObjectList - Action Reports - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2942960337 - Action 2653182359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reset Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ObjectList - Action Reset Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2942960337 - Action 2991273255 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ObjectList - Action Run Selected Object - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2942960337 - Action 1061736343 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tables</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ObjectList - Action Tables - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2942960337 - Action 2877104197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XMLports</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ObjectList - Action XMLports - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3947105595 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Devis en-cours et archivés</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -448,6 +498,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Quote and Archive List - Control Your Reference - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="XmlPort 293453892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import ItemCategory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">XmlPort Import ItemCategory - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 4168943666 - Action 2040917903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
           <source>Correction écriture</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -612,6 +667,21 @@
           <source>Shipping Agent Service Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Shipment Header Ext. - Field Shipping Agent Service Descr. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2034937509 - Field 2296727863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Fiche technique</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Tab-Ext50107.Item - Field Fiche technique - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2034937509 - Field 744530384 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>URL Image</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Tab-Ext50107.Item - Field Image URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2034937509 - Field 2382906057 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Manuel utilisateur</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Tab-Ext50107.Item - Field Manuel utilisateur - Property Caption</note>
         </trans-unit>
         <trans-unit id="ReportExtension 1812468165 - NamedType 2779289930" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 1812468165">
           <source>E-mail : </source>

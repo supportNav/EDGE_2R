@@ -11,6 +11,21 @@ pageextension 50100 "Item Card Extension" extends "Item Card"
             {
                 ApplicationArea = All;
             }
+            Field("Fiche technique"; Rec."Fiche technique")
+            {
+                ApplicationArea = All;
+                ExtendedDatatype = URL;
+            }
+            Field("Manuel utilisateur"; Rec."Manuel utilisateur")
+            {
+                ApplicationArea = All;
+                ExtendedDatatype = URL;
+            }
+            Field("Image URL"; Rec."Image URL")
+            {
+                ApplicationArea = All;
+                ExtendedDatatype = URL;
+            }
         }
     }
 }
