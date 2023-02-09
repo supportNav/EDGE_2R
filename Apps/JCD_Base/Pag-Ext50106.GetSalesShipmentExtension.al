@@ -5,6 +5,7 @@ pageextension 50106 "Get Sales Shipment Extension" extends "Get Shipment Lines"
 {
     layout
     {
+        /*
         addafter("Document No.")
         {
             field(OrderNo; Rec."Order No.")
@@ -12,5 +13,6 @@ pageextension 50106 "Get Sales Shipment Extension" extends "Get Shipment Lines"
                 ApplicationArea = All;
             }
         }
+        */
     }
 }

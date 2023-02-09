@@ -5,6 +5,7 @@ pageextension 50102 "Contact List Extension" extends "Contact List"
 {
     layout
     {
+        /*
         addafter("E-mail")
         {
             field("Job Title"; Rec."Job Title")
@@ -13,5 +14,6 @@ pageextension 50102 "Contact List Extension" extends "Contact List"
                 Editable = false;
             }
         }
+        */
     }
 }

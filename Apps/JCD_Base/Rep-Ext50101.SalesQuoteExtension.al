@@ -43,9 +43,11 @@ reportextension 50101 SalesQuoteExt extends "Standard Sales - Quote"
         InfoCompany: Record "Company Information";
         ReferenceLbl: Label 'Item Reference';
         WebSiteLbl: Label 'Website :';
-        TelLbl: Label 'Phone No. :';
+        //TelLbl: Label 'Phone No. :';
+        TelLbl: Label 'N° téléphone :';
         EMailTxtLbl: Label 'E-mail : ';
-        RealizedBy: Label 'Realized by :';
+        //RealizedBy: Label 'Realized by :';
+        RealizedBy: Label 'Réalisé par :';
         ShippingAgentLbl: Label 'Shipping Agent Name';
         ShipAgentPrestaLbl: Label 'Shipping Agent Services';
         EDGECOdeunit: Codeunit "EDGE 2R Extension";
